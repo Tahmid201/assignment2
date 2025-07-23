@@ -1,0 +1,45 @@
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between ;
+  }
+  .navs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* align-items:center; */
+     justify-content: space-around;
+     margin-right: 10px;
+     
+  }
+  .navs li{
+    list-style: none;
+  }
+  .navs li a{
+    text-decoration: none;
+  }
+  .home{
+    color: rgb(37, 36, 50);
+font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+  }
+  .color1{
+    color: rgb(137, 135, 161);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+  }
+  .color2{
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+  }
