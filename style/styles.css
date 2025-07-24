@@ -3,26 +3,24 @@
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
   }
   .navbar{
     display:flex;
     align-items: center;
     justify-content: space-between ;
   }
-  .navs{
+  .navigation{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    /* align-items:center; */
+    align-items:center;
      justify-content: space-around;
      margin-right: 10px;
      
   }
-  .navs li{
+  .navigation li{
     list-style: none;
   }
-  .navs li a{
+  .navigation li a{
     text-decoration: none;
   }
   .home{
@@ -43,3 +41,144 @@ font-family: Inter;
 font-size: 16px;
 font-weight: 400;
   }
+  .hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .margin{
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  .hero-description{
+    color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+  }
+  .color3{
+    color: rgb(233, 90, 8);
+font-family: Noto Serif;
+font-size: 65px;
+font-weight: 700;
+  }
+  .hero-title{
+    font-size: 65px;
+font-weight: 700;
+  }
+  .btn{
+    justify-content: center;
+align-items: center;
+gap: 10;
+padding: 26px 90px 26px 90px;
+background: rgb(233, 90, 8);
+color:white;
+  }
+  .body1-title{
+    text-align: center;
+  }
+  .body1-p{
+    text-align: center;
+    margin: 10px 150px;
+  }
+  .body1-title1{
+    Font-weight:700;
+Font-size:50px;
+color:rgb(233, 90, 8)
+  }
+  .body1-title2{
+    Font-weight:700;
+    Font-size:50px;
+    color:rgb(0, 0, 0)
+  }
+  .products{
+    display:grid;
+    grid-template-columns: repeat(4,2fr);
+  }
+  .body1-info{
+    justify-content: center;
+    align-items: center;
+  }
+  .products{
+    gap:30px ;
+    text-align: center;
+  }
+  .card{
+    padding:10px 0px;
+  }
+
+  @media screen and (max-width:576px) {
+    .home,.shop,.about{
+     visibility: hidden;
+    }
+    .hero{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .margin{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .body1-p{
+        font-size: 14px;
+        line-height: 1.6;
+        margin: 10px 15px 30px 15px;
+        text-align: center;
+        
+    }
+   
+    .hero-img img{
+       width: 100%;
+       height: auto;
+       max-width: 500px;
+    }
+    
+    
+    .products{
+        grid-template-columns: repeat(2,4fr);
+        gap: 15px;
+    }
+    
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card {
+    padding: 10px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 12px 0;
+  }
+        /* justify-content: center; 
+        align-items: center;
+        gap:10px;
+        margin:0;
+    }
+    .products>*{
+        width: 100%;
+
+    }
+    .card{
+        margin-right: 30px;
+        gap:0;
+    }
+    /* .body1-title{
+        text-align: center;
+    } */
+    /* 
+        
+    }
+    .card img{
+        width:100%;
+    } */ 
+    .margin {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+}
+  
