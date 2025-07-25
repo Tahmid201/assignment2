@@ -389,40 +389,10 @@ text-align: left;
       .footer{
         grid-template-columns: 1fr;
       }
-      .footer4{
-        grid-template-columns: 1fr;
-        margin-left: 20px;
-      }
+      
       .footer-p{
         margin: 0 20px;
       }
-      /* .body4{
-        width: 100%;
-       padding-right: 20px;
-       margin-left: -10px;
-       max-width: 100%;
-       
-        overflow-x: hidden;
-      }
-      .body4-title, form{
-        margin:0 70px;
-        background-color: rebeccapurple;
-        
-      }
-      
-      .btn1{
-       margin: 0 120px;
-       justify-content: center;
-       background-color: red;
-       align-items: center;
-      }
-      .body4 img{
-        width: 100%;
-        max-width: 100%;
-        margin: 0;
-        padding:0;
-        display: block;
-      } */
-      
+     
 }
   
