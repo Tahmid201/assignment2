@@ -171,7 +171,7 @@ text-align: left;
     height: 520px;
   } 
   .image1{
-    background-image: url(/B12A02-Responsive-Flowers/assets/deal-bloom.png);
+    background-image: url(../B12A02-Responsive-Flowers/assets/deal-bloom.png);
     background-repeat: no-repeat;
     height: 250px;
     background-size: cover;
@@ -184,7 +184,7 @@ text-align: left;
     height: 35vh;
   }
   .image2{
-    background-image: url(/B12A02-Responsive-Flowers/assets/deal-ana.png);
+    background-image: url(../B12A02-Responsive-Flowers/assets/deal-ana.png);
     background-repeat: no-repeat;
     height: 250px;
     background-size: cover;
@@ -211,7 +211,7 @@ text-align: left;
   font-weight: bold;
   }
   .image3{
-    background-image: url(/B12A02-Responsive-Flowers/assets/deal-zabo.png);
+    background-image: url(../B12A02-Responsive-Flowers/assets/deal-zabo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -225,7 +225,7 @@ text-align: left;
   }
  
   .body4{
-    background-image: url(/B12A02-Responsive-Flowers/assets/news-letter-bg.png);
+    background-image: url(../B12A02-Responsive-Flowers/assets/news-letter-bg.png);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
